@@ -1,0 +1,213 @@
+import type { Subject } from "./types";
+
+export const interests = [
+  "Cricket",
+  "Cooking",
+  "Space",
+  "Music",
+  "Gaming",
+  "Design",
+  "Robotics",
+  "Business",
+  "Nature",
+  "Dance",
+  "Motorsport",
+  "Photography",
+];
+export const goals = [
+  "CBSE foundations",
+  "CBSE + JEE",
+  "CBSE + NEET",
+  "CBSE + BITSAT",
+  "CBSE + CUET",
+  "CBSE + TS EAMCET",
+  "CBSE + AP EAMCET",
+  "CBSE + KCET",
+];
+export const subjects: Subject[] = [
+  "Mathematics",
+  "Physics",
+  "Chemistry",
+  "Biology",
+];
+export const curriculum = [
+  {
+    id: "proportions",
+    title: "Ratios & proportional reasoning",
+    subject: "Mathematics",
+    grade: 8,
+    chapter: "Comparing quantities",
+    lesson: "proportions",
+  },
+  {
+    id: "linear",
+    title: "Linear equations & constraints",
+    subject: "Mathematics",
+    grade: 8,
+    chapter: "Algebra",
+  },
+  {
+    id: "coordinate",
+    title: "Coordinates & geometric relationships",
+    subject: "Mathematics",
+    grade: 9,
+    chapter: "Coordinate geometry",
+  },
+  {
+    id: "similarity",
+    title: "Similarity & mathematical proof",
+    subject: "Mathematics",
+    grade: 10,
+    chapter: "Triangles",
+  },
+  {
+    id: "trigonometry",
+    title: "Trigonometric ratios & identities",
+    subject: "Mathematics",
+    grade: 10,
+    chapter: "Trigonometry",
+  },
+  {
+    id: "calculus",
+    title: "Rates of change & derivatives",
+    subject: "Mathematics",
+    grade: 11,
+    chapter: "Introduction to calculus",
+  },
+  {
+    id: "integration",
+    title: "Accumulation & integration",
+    subject: "Mathematics",
+    grade: 12,
+    chapter: "Integral calculus",
+  },
+  {
+    id: "motion",
+    title: "Motion, forces & representations",
+    subject: "Physics",
+    grade: 9,
+    chapter: "Motion",
+  },
+  {
+    id: "projectiles",
+    title: "Projectile motion",
+    subject: "Physics",
+    grade: 11,
+    chapter: "Motion in a plane",
+    lesson: "projectiles",
+  },
+  {
+    id: "waves",
+    title: "Oscillations & waves",
+    subject: "Physics",
+    grade: 11,
+    chapter: "Waves",
+  },
+  {
+    id: "circuits",
+    title: "Electric circuits & current",
+    subject: "Physics",
+    grade: 12,
+    chapter: "Current electricity",
+  },
+  {
+    id: "optics",
+    title: "Ray optics & image formation",
+    subject: "Physics",
+    grade: 12,
+    chapter: "Optics",
+  },
+  {
+    id: "matter",
+    title: "Matter & separation",
+    subject: "Chemistry",
+    grade: 9,
+    chapter: "Matter",
+  },
+  {
+    id: "acids",
+    title: "Acids, bases & salts",
+    subject: "Chemistry",
+    grade: 10,
+    chapter: "Chemical reactions",
+  },
+  {
+    id: "stoichiometry",
+    title: "Moles & reaction ratios",
+    subject: "Chemistry",
+    grade: 11,
+    chapter: "Basic concepts of chemistry",
+    lesson: "stoichiometry",
+  },
+  {
+    id: "bonding",
+    title: "Chemical bonding & structure",
+    subject: "Chemistry",
+    grade: 11,
+    chapter: "Chemical bonding",
+  },
+  {
+    id: "electrochemistry",
+    title: "Redox & electrochemistry",
+    subject: "Chemistry",
+    grade: 12,
+    chapter: "Electrochemistry",
+  },
+  {
+    id: "organic",
+    title: "Organic structures & mechanisms",
+    subject: "Chemistry",
+    grade: 12,
+    chapter: "Organic chemistry",
+  },
+  {
+    id: "cells",
+    title: "Cells & living systems",
+    subject: "Biology",
+    grade: 8,
+    chapter: "Cell structure",
+  },
+  {
+    id: "tissues",
+    title: "Tissues & biological organisation",
+    subject: "Biology",
+    grade: 9,
+    chapter: "Tissues",
+  },
+  {
+    id: "inheritance",
+    title: "Patterns of inheritance",
+    subject: "Biology",
+    grade: 10,
+    chapter: "Heredity",
+    lesson: "inheritance",
+  },
+  {
+    id: "physiology",
+    title: "Human physiology & regulation",
+    subject: "Biology",
+    grade: 11,
+    chapter: "Human physiology",
+  },
+  {
+    id: "genetics",
+    title: "Molecular basis of inheritance",
+    subject: "Biology",
+    grade: 12,
+    chapter: "Genetics",
+  },
+  {
+    id: "ecology",
+    title: "Ecology & ecosystems",
+    subject: "Biology",
+    grade: 12,
+    chapter: "Ecology",
+  },
+] satisfies {
+  id: string;
+  title: string;
+  subject: Subject;
+  grade: number;
+  chapter: string;
+  lesson?: string;
+}[];
