@@ -1,0 +1,13 @@
+{
+  "topics": 30,
+  "interests": 10,
+  "challengeRenders": 214,
+  "contextModels": 72,
+  "uniquePrompts": 214,
+  "independentModelChecks": 30,
+  "answerChecks": "all passed",
+  "filters": "passed",
+  "routeRecovery": "passed",
+  "gradeOptions": "all five present",
+  "staticAssets": "local references verified"
+}

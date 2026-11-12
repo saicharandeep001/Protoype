@@ -1,0 +1,46 @@
+PeduC — Context Before Content
+Project purpose and pitch note
+
+Founder and project lead: Venkata Sai Charan Deep
+Stage: early interactive prototype
+Intended learners: students in grades 8–12
+
+THE IDEA
+
+Many students encounter a new concept as a formula or a definition before they see why it matters. PeduC begins with a question, situation, or system connected to something a student already recognises. The student explores that context, learns the concept behind it, and then applies it in different settings.
+
+The goal is not to replace academic rigour with entertainment. It is to give learners a meaningful reason to engage with the concept and then test whether they can use the underlying idea beyond the original example. Teachers and mentors remain important to explanation, encouragement, assessment, and judgement.
+
+THE LEARNING EXPERIENCE
+
+A student chooses a subject, a topic, and an interest for which the connection has a clear educational purpose. PeduC shows a real-world scenario and an interactive model, followed by the concept, its assumptions, and questions that progress from foundational practice to more demanding reasoning. A learner can use hints and worked solutions and see their progress on the same browser.
+
+For example, a student interested in music can explore how current in a simplified loudspeaker coil relates to magnetic force. A student interested in literature can use carbon isotopes as an entry point to atomic structure and the dating of manuscript material. If an interest cannot illuminate a topic honestly, it is left out rather than forced into the lesson.
+
+WHAT EXISTS TODAY
+
+This is a buildless, static prototype with mathematics, chemistry, and physics; 30 topic paths; 72 curated connections across 10 interests; and 214 original questions. It includes interactive context models, concept explanations, varied answer formats, hints, worked solutions, subject and grade filters, and browser-local progress.
+
+This version does not use an AI model. Its questions, explanations, mappings, and checks are authored in advance. Personalised sequencing and AI-assisted guidance are possible future directions, not present capabilities. The current prototype is not a complete curriculum or an official JEE preparation product, and its effectiveness has not been demonstrated through a controlled study.
+
+WHO IT IS FOR
+
+The first group to learn from is students in grades 8–12 and the educators, tutors, and mentors who support them. The longer-term aim is to make high-quality conceptual learning more approachable across different backgrounds and interests, while recognising that access, language, curriculum alignment, and teacher support will need deliberate design and testing.
+
+WHAT WE NEED TO LEARN
+
+1. Which interest–concept connections help students understand a topic, and which ones distract from it?
+2. After starting in a familiar context, can students explain the idea and transfer it to an unfamiliar problem?
+3. How do students and teachers experience the pace, clarity, accessibility, accuracy, and difficulty progression?
+4. Can educators review and create rigorous content without turning personalisation into superficial examples?
+5. What technical and operational model would make a responsible classroom pilot possible?
+
+A next step would be to review a small set of lessons with subject specialists and teachers, then design a limited pilot with appropriate participant protections. Possible measures include prior knowledge, immediate understanding, application to an unfamiliar setting, later retention, and qualitative feedback. Results should be treated as evidence to investigate, not as proof promised in advance.
+
+THE REQUEST TO AN INNOVATION TEAM
+
+I am seeking critical feedback and support to develop this idea responsibly: learning-science and curriculum mentorship; engineering guidance for a dependable platform and authoring tools; introductions to educators and potential pilot partners; and, when there is a sound plan and evidence, access to suitable development resources or funding opportunities.
+
+The immediate objective is to turn an early prototype into a testable learning experience. The longer-term ambition is to build an education platform that respects students' different interests while holding every learning path to a high standard of understanding.
+
+For the implementation, setup instructions, current limitations, and third-party credits, see README.md and THIRD_PARTY_NOTICES.md.

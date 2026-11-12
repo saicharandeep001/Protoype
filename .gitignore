@@ -1,0 +1,10 @@
+# Local and editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+coverage/
+*.log
